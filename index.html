@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" data-theme="pastel">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Our stuff</title>
+        <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/image-storage-18130.appspot.com/o/owzin.svg?alt=media&token=8a03e60e-b529-4693-bb6b-d0e1b209c4c7" type="image/x-icon">
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {},
+                },
+                daisyui: {
+                    themes: ["pastel"],
+                },
+                plugins: [daisyui],
+            };
+        </script>
+    </head>
+    <body class="bg-base-200 flex items-center justify-center h-screen">
+        <div
+            class="max-w-sm w-full bg-base-100 shadow-xl rounded-lg p-6 text-center"
+        >
+            <!-- Profile Image -->
+            <div class="avatar flex justify-center mb-4">
+                <div
+                    class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
+                >
+                    <img src="https://firebasestorage.googleapis.com/v0/b/image-storage-18130.appspot.com/o/IMG_3337.jpg?alt=media&token=38a6d467-07b0-46df-8c18-45e7c66e158b" alt="Profile" />
+                </div>
+            </div>
+
+            <!-- Name/Title -->
+            <h1 class="text-2xl font-bold mb-2">Owzin & Hisie's stuff</h1>
+
+            <!-- Links -->
+            <div class="divider divider-secondary">Love website</div>
+            <div class="flex flex-col gap-4">
+                <a
+                    href="https://hisiegotit.github.io/dday/"
+                    class="btn btn-secondary hover:duration-300"
+                    >D-day</a
+                >
+                <a
+                    href="https://hisiegotit.github.io/memories/"
+                    class="btn btn-secondary hover:duration-300"
+                    >Our memories</a
+                >
+                <a
+                    href="https://hisiegotit.github.io/envelop/"
+                    class="btn btn-secondary hover:duration-300"
+                    >20/10 Envelop</a
+                >
+                <a
+                    href="https://hisiegotit.github.io/our-gallery/"
+                    class="btn btn-secondary hover:duration-300"
+                    >Our gallery</a
+                >
+                <a
+                    href="https://oxh26.github.io/our142/"
+                    class="btn btn-secondary hover:duration-300"
+                    >Our 14/02</a
+                >
+            </div>
+        </div>
+    </body>
+</html>
